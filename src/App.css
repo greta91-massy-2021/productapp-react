@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+}
+#root > :first-child {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  margin: 1em;
+}
+#root > :last-child {
+  flex: 7 1 0;
+  margin: 1em;
+}
+
+nav > button:first-child {
+  margin-bottom: 1em;
+}
